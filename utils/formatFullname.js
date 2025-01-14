@@ -1,3 +1,4 @@
+// name formatter
 module.exports = (fullName) => {
   if (typeof fullName !== 'string') return 'Error';
   const nameParts = fullName.trim().split(' ');
